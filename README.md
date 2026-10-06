@@ -28,4 +28,5 @@ kubectl config use-context x
 ./usr/local/bin/apicops system:pre-upgrade-check management -n apic-mgmt
 ```
 
+Then do the same for portal health-check.
 
