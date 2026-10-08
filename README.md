@@ -8,7 +8,7 @@ oc get po|grep system-check
 ```
 3. Then issue the oc debug command to create a debug container with the -t to make the pod's shell behave like a terminal session:
 ```
- oc debug -t pod/{ENTER_THE_management-system-check_POD_HERE} -- /bin/sh
+ oc debug -t pod/ENTER_THE_management-system-check_POD_HERE -- /bin/sh
 ```
 
 4. Inside the pod, to use apicops, you'll need to set the kubeconfig with the following:
