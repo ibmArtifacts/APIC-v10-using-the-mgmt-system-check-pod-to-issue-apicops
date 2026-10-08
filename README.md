@@ -28,5 +28,5 @@ kubectl config use-context x
 apicops system:pre-upgrade-check management -n MGMT_NAMESPACE_HERE
 ```
 
-Then do the same for portal on the portal-health-check pod.
+Then do the same for portal and analytics on the portal-health-check and analytics-health-check pods, respectively.
 
