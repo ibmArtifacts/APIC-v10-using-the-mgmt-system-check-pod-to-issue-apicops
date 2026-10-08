@@ -25,7 +25,7 @@ kubectl config use-context x
 
 5. Then after, you should be able to run apicops:
 ```
-./usr/local/bin/apicops system:pre-upgrade-check management -n apic-mgmt
+./usr/local/bin/apicops system:pre-upgrade-check management -n MGMT_NAMESPACE_HERE
 ```
 
 Then do the same for portal health-check.
